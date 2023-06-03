@@ -1,0 +1,58 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: WordPress Theme Development with the Underscores Framework
+
+TITLE: How to Develop a Customizable WordPress Theme with Underscores Framework
+META_DESCRIPTION: Learn how to build a fully customizable WordPress theme from scratch using the Underscores Framework. The step-by-step guide is perfect for developers who want to master WordPress theme development.
+TAGS: WordPress, Theme Development, Underscores Framework, Web Development, Customizable Themes
+CATEGORIES: Tutorials, Web Development, WordPress, Programming and Coding
+
+Underscores Framework is a popular WordPress starter theme that is used by developers to create custom WordPress themes. It’s a lightweight and flexible theme that provides a solid foundation for building a fully customizable WordPress theme. In this tutorial, we will explain how to develop a customizable WordPress theme using the Underscores Framework. 
+
+**1. Download and Install Underscores**
+
+The first step is to download and install the Underscores starter theme from the website. You can find the download link at underscores.me. After downloading the theme, extract the files and rename the folder according to the name of your theme. 
+
+**2. Customize Theme Options**
+
+Next, you need to customize the theme options to suit your preferences. Open the functions.php file and look for the following line of code:
+
+`add_theme_support( 'custom-logo' );` 
+
+This line of code adds support for a custom logo in the theme. You can also add support for other theme features like post thumbnails, custom backgrounds, and custom headers by modifying this code. 
+
+**3. Create Template Files**
+
+After customizing the theme options, the next step is to create template files for your WordPress theme. Underscores provides a variety of template files to choose from, including index.php, header.php, footer.php, and sidebar.php.
+
+Using these template files, you can create custom pages, posts, and categories for your WordPress site. You can also create custom page templates for different sections of your site. 
+
+**4. Add Styles and Scripts**
+
+Once you have created the template files for your WordPress theme, you need to add styles and scripts to make it look and feel the way you want. Underscores comes with a style.css file that serves as a starting point for your theme’s styling. You can also add custom CSS code to this file to further customize your theme’s appearance.
+
+Underscores also allows you to add custom JavaScript code by creating a new file in the js directory. You can use this file to add functionality to your theme, such as custom widgets, sliders, or other interactive elements. 
+
+**5. Test Your Theme**
+
+Finally, it’s time to test your theme to ensure that it’s working properly. You can do this by activating your theme in the WordPress dashboard and previewing it in the front-end. Make sure that all the elements of your theme are displaying correctly and that it is fully functional. 
+
+**Conclusion**
+
+In this tutorial, we have explained how to use the Underscores starter theme to build a fully customizable WordPress theme. We’ve covered the basics of customizing theme options, creating template files, adding styles and scripts, and testing your theme. By following these steps, you can create a unique and tailored WordPress theme that meets the specific needs of your website or blog. 
+
+-EndOFText-

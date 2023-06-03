@@ -1,0 +1,64 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: Beginner's Guide to Plugin Customization with WordPress
+
+TITLE: A Complete Guide to Customizing WordPress Plugins for Beginners
+META_DESCRIPTION: This guide walks beginners through the process of customizing WordPress plugins. Learn the basics of plugin customization and take control of your website's functionality.
+TAGS: WordPress Plugins, Customization, Beginners, Web Development
+CATEGORIES: Tutorials, Web Development, WordPress
+
+Are you tired of being limited by plugins with generic functionality? Do you want to take control of your website's functionality? If you answered yes to either of these questions, then plugin customization is the solution you need. 
+
+In this beginner's guide, we will walk you through the basics of customizing WordPress plugins.
+
+**Step 1: Identify the Plugin Functionality to Customize**
+
+Before you can begin customizing a plugin, you need to know what function(s) of the plugin you want to customize. Identify the functionality you want to modify and make a note of it. 
+
+**Step 2: Create a Child Theme**
+
+One of the most important things to do before customizing a plugin is to create a child theme. A child theme allows you to customize the functionality of a parent theme, without affecting the parent theme's files. This is crucial if you want to maintain the integrity of your website.
+
+**Step 3: Locate the Plugin Files**
+
+Once you have created a child theme, you need to locate the plugin files you want to customize. You can do this by navigating to your WordPress installation directory and finding the plugin's directory. 
+
+**Step 4: Copy Plugin Files to Child Theme**
+
+After you have located the plugin files, copy them to your child theme directory. This will allow you to customize the plugin without affecting the original files.
+
+**Step 5: Customize Plugin Files**
+
+Now comes the fun part – customizing the plugin files. You can modify the plugin's functionality by editing the plugin files you copied to your child theme. Make sure to test your changes as you go along, so you don't break your website!
+
+**Step 6: Set Up Version Control**
+
+Setting up version control is important when customizing plugins. This allows you to keep track of changes you make to the plugin files. We recommend using a version control system like Git.
+
+**Step 7: Test Your Changes**
+
+Once you have completed your customization, it's time to test your changes. Make sure to thoroughly test the plugin's functionality before deploying it on your live website.
+
+**Conclusion**
+
+Customizing WordPress plugins is a powerful way to take control of your website's functionality. By following the steps in this guide, even beginners can customize plugins with ease. Just make sure to proceed with caution, test your changes thoroughly, and set up version control!Now that you have gained a basic understanding of how to customize WordPress plugins, you can start experimenting with your website's functionality. However, remember to always proceed with caution and test your changes thoroughly before deploying them on your live website. 
+
+Additionally, as you gain more experience in plugin customization, you can start exploring advanced techniques like creating custom functions and hooks.
+
+In conclusion, customizing WordPress plugins empowers you to take control of your website's functionality and create a unique user experience for your visitors. We hope this guide has provided you with the knowledge you need to get started with plugin customization. Happy coding! 
+
+EndOFText

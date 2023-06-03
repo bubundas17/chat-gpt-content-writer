@@ -1,0 +1,76 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: How to Create Your Own WordPress Plugin: A Step-by-Step Guide
+
+TITLE: Building Your First WordPress Plugin: A Step-by-Step Guide 
+META_DESCRIPTION: Learn how to create your own WordPress plugin with our comprehensive guide. Follow our step-by-step instructions to create a custom plugin. 
+POST_TAGS: WordPress, Plugin Development, Coding, Web Development, PHP 
+POST_CATEGORIES: Tutorials, Web Development, WordPress
+ 
+
+Are you a developer looking to create your own WordPress plugin? Building your custom plugin can seem overwhelming, but it doesn't have to be. With our step-by-step guide, you can create a fully functional plugin to add to your WordPress site. In this tutorial, we'll cover the basics of creating a WordPress plugin, including setting up your development environment, creating a plugin file, and adding custom functionality. 
+
+## Step 1: Set Up Your Development Environment 
+Before we start building our plugin, we need to set up our development environment. To do this, you'll need a local web server installed on your computer. Once you have a web server installed, create a new folder in your web server's root directory and name it "wp-content/plugins". This is where we'll store our plugin files. 
+
+## Step 2: Create a Plugin File 
+Next, we'll create our plugin file. Open a text editor and create a new file named "my-plugin.php". In this file, we'll add the code to register our plugin with WordPress. 
+
+```
+<?php 
+/*
+Plugin Name: My Plugin 
+Description: A brief description of your plugin. 
+Version: 1.0 
+Author: Your Name 
+*/
+```
+
+In this code, we're defining the basic information about our plugin, including its name, description, version, and author. 
+
+## Step 3: Add Custom Functionality 
+Now that we've registered our plugin, it's time to add some custom functionality. Let's create a function that will add a custom message to the top of all posts. 
+
+```
+<?php 
+function my_plugin_message() { 
+  echo "<div class='my-plugin-message'>Welcome to my plugin!</div>"; 
+} 
+add_action('the_post', 'my_plugin_message'); 
+?>
+```
+
+In this code, we've created a function that echoes out a custom message. We then use the `add_action` function to add this message to the top of all posts. 
+
+## Step 4: Test Your Plugin 
+Now that we've created our plugin, it's time to test it out. Log in to your WordPress site and navigate to the "Plugins" section. You should see your plugin listed here. Click "Activate" to activate your plugin. 
+
+Once your plugin is activated, create a new post on your site. You should see your custom message displayed at the top of the post. Congratulations, you've successfully created your first WordPress plugin! 
+
+## Step 5: Expand Your Plugin 
+Of course, this is just the beginning. There are endless possibilities for custom plugins, and you can expand your plugin to include any functionality you desire. 
+
+Some ideas for expanding your plugin include: 
+- Adding custom widgets to your site 
+- Creating custom shortcodes 
+- Adding custom post types to your site 
+- Integrating with third-party services 
+
+## Conclusion 
+Creating your own WordPress plugin can seem daunting, but with our step-by-step guide, you can create a fully functional plugin in just a few hours. Remember to start small and build up your plugin's functionality over time. With a bit of experimentation, you'll soon have a powerful tool that will enhance your WordPress site's functionality. 
+
+-EndOFText-

@@ -1,0 +1,75 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: How to Add a Custom Functionality to Your WordPress Site with a Plugin
+
+TITLE: The Ultimate Guide to Adding Custom Functionality to Your WordPress Site with a Plugin 
+META_DESCRIPTION: Learn how to add custom functionality to your WordPress site with ease. This guide covers the steps needed to create custom plugins that will make your website stand out. 
+TAGS: WordPress, Plugins, Custom Functionality, Website Development 
+CATEGORIES: Tutorials, WordPress, Website Development 
+
+WordPress is a powerful platform that allows users to create websites without any coding experience. However, if you want to add custom functionality to your site, you might need some coding skills. Luckily, with plugins, adding custom functionality to your WordPress site is possible and relatively easy. In this guide, we will show you how to add custom functionality to your WordPress site with a plugin.
+
+## Understanding Plugins
+
+Plugins are software programs that add new functionality to WordPress websites. They are designed to work with WordPress and are easy to install and use. Each plugin has its own functionality, such as adding a contact form, improving website speed, or adding social media icons.
+
+## Creating a Custom Plugin
+
+To create a custom plugin to add new functionality to your WordPress site, follow these steps:
+
+1. Open your code editor and create a new file called `my-plugin.php`. 
+2. In this file, include the plugin header information using the following code: 
+
+```
+/*
+Plugin Name: My Plugin
+Description: A brief description of your plugin.
+Version: 1.0.0
+Author: Your Name
+Author URI: Your website address
+*/
+```
+
+3. Next, add the code to add your custom functionality. This could include anything from adding a custom post type to creating a new shortcode. 
+4. Save the file and compress it into a .zip file. 
+5. Finally, upload the plugin to your WordPress site by going to Plugins > Add New and clicking on the "Upload Plugin" button. 
+
+## Adding Custom Functionality with Existing Plugins
+
+If you don't want to create your own custom plugin from scratch, there are thousands of existing plugins available from the WordPress Plugin Repository. You can easily search for plugins that add the functionality you need and install them in just a few clicks.
+
+To add a new plugin to your WordPress site, follow these steps:
+
+1. Log in to your WordPress site and go to Plugins > Add New. 
+2. Search for the plugin you want to install by using the search bar. 
+3. Once you find the plugin, click the "Install Now" button. 
+4. After the plugin has been installed, click the "Activate" button to activate the plugin. 
+5. Congratulations, you have added new functionality to your WordPress site!
+
+## Choosing the Right Plugin
+
+With so many plugins available, it can be overwhelming to choose the right one for your needs. To choose the right plugin, consider the following factors:
+
+1. Be sure to read the plugin reviews and ratings before installing it. This will help you get an idea of how other users have found the plugin to work. 
+2. Check the compatibility of the plugin with your version of WordPress. 
+3. Look for plugins that have been developed by reputable developers. 
+
+## Conclusion
+
+Custom functionality is what sets your website apart from the rest. With WordPress, adding custom functionality is easier than ever. By creating your own custom plugin or installing existing ones, you can add new features to your site quickly and easily. With these simple steps, you can add custom functionality to your WordPress site and take it to the next level. 
+
+-EndOFText-

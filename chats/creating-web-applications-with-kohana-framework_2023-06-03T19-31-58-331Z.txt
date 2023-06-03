@@ -1,0 +1,76 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: Creating Web Applications with Kohana Framework
+
+TITLE: Building Web Applications with Kohana Framework: A Complete Guide
+META_DESCRIPTION: Learn how to use the Kohana Framework to build robust and scalable web applications. Get started today with our step-by-step guide.
+TAGS: Kohana Framework, Web Development, PHP Development, Web Applications, MVC Framework
+CATEGORIES: Tutorials, Web Development Frameworks, PHP Development
+
+Kohana Framework is a powerful PHP web development framework that follows the Model-View-Controller (MVC) architectural pattern. It's an open-source framework that's known for its simplicity, easy-to-use syntax, and flexibility. This tutorial will guide you through the process of building a web application using Kohana Framework.
+
+## Getting Started with Kohana Framework
+
+Before we dive into building our web application, we need to set up our development environment. Here are the steps to get started with Kohana Framework:
+
+1. Download and install PHP on your computer if you haven't already.
+2. Install Composer, PHP's dependency manager, from https://getcomposer.org/.
+3. Open the command prompt and run `composer create-project kohana/kohana app-name` to install the latest version of Kohana with a new project.
+
+## Understanding Kohana Framework's Directory Structure
+
+Kohana Framework has a very organized directory structure that helps developers separate their application's components and modules. Here are the main directories that we will be working with:
+
+- application: This is where you'll write your application's code. This directory contains subdirectories for Models, Views, and Controllers.
+- modules: This directory contains third-party modules that you can install and use in your application.
+- system: This directory contains the Kohana Framework's core files.
+
+## Creating Controllers, Models, and Views
+
+Now that we have our development environment set up and we understand Kohana Framework's directory structure, let's create our first controller, model, and view. Here are the steps:
+
+1. Create a new file called "hello.php" in the "application/classes/Controller" directory.
+2. Add the following code to "hello.php":
+```php
+class Controller_Hello extends Controller 
+{
+   public function action_index()
+   {
+       $view = View::factory('hello');
+       $view->message = 'Hello, world!';
+       echo $view;
+   }
+}
+```
+3. Create a new file called "hello.php" in the "application/views" directory.
+4. Add the following code to "hello.php":
+```html
+<html>
+   <body>
+       <h1><?php echo $message?></h1>
+   </body>
+</html>
+```
+5. Run the application by opening your web browser and navigating to "http://localhost/app-name/hello/index.php".
+
+Congratulations! You've just created a simple web application using Kohana Framework.
+
+## Conclusion
+
+In this tutorial, we've covered the basics of building a web application using Kohana Framework. We've discussed how to set up your development environment, the framework's directory structure, and how to create controllers, models, and views. The Kohana Framework is an excellent choice for building robust and scalable web applications, and we hope this tutorial has helped you get started with it. If you have any questions or comments, please feel free to leave them below.
+
+-EndOFText-

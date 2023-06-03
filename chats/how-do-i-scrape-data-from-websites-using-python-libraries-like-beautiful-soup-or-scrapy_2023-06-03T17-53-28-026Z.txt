@@ -1,0 +1,120 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: How do I scrape data from websites using Python libraries like Beautiful Soup or Scrapy
+
+TITLE: The Ultimate Guide to Web Scraping with Beautiful Soup and Scrapy
+META_DESCRIPTION: Learn how to extract data from websites using Python libraries like Beautiful Soup and Scrapy.
+TAGS: Web Scraping, Beautiful Soup, Scrapy, Python, Data Extraction
+CATEGORIES: Tutorials, Data Science, Python
+
+Web scraping is a technique that enables you to extract data from websites. It has become an essential part of data analysis and research, as it allows you to collect and analyze vast amounts of online information quickly and efficiently. Python has several libraries to facilitate web scraping, including Beautiful Soup and Scrapy.
+
+In this tutorial, we’ll be exploring these two Python libraries and how to use them to scrape data from websites.
+
+**What is Beautiful Soup?**
+
+Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for the HTML/XML file that can be traversed to extract data from the file. Beautiful Soup provides a few simple methods and Pythonic idioms for navigating, searching, and modifying a parse tree.
+
+**Web Scraping with Beautiful Soup**
+To extract data from a website using Beautiful Soup library you can follow the following steps:
+
+1. Install Beautiful Soup:
+
+    ```
+    pip install beautifulsoup4
+    ```
+
+2. Import the library
+
+    ```
+    from bs4 import BeautifulSoup
+    ```
+
+3. Make a request to the server
+   ```
+   import requests
+   url = 'https://example.com'
+   response = requests.get(url)
+   ```
+
+4. Parse the content using BeautifulSoup
+   
+   ```
+   soup = BeautifulSoup(response.text, 'html.parser')
+   ```
+
+5. Find the tag which contains data you need
+
+   ```
+   data = soup.find('div', {'class': 'data'})
+   ```
+
+6. Extract the data from the tag
+
+   ```
+   text = data.text
+   ```
+   
+You can also use Beautiful Soup to extract data from various documents types such as XML, CSV, and JSON.
+
+**What is Scrapy?**
+
+Scrapy is a Python framework for web scraping that provides automatic website crawling and extraction of data. It supports various protocols such as HTTP, HTTPS, FTP, and SFTP, and it also has built-in support for handling cookies, sessions, and user agents. Scrapy is much more powerful than Beautiful Soup and is used for large-scale web scraping projects.
+
+**Web Scraping with Scrapy**
+
+To extract data from a website using Scrapy library you can follow the following steps:
+
+1. Install Scrapy:
+
+   ```
+   pip install scrapy
+   ```
+
+2. Create a new scrapy project:
+
+   ```
+   scrapy startproject project_name
+   ```
+
+3. Define the spider
+
+   ```
+   import scrapy
+   
+   class ExampleSpider(scrapy.Spider):
+       name = 'example'
+       start_urls = ['https://example.com/']
+   
+   def parse(self, response):
+       data = response.css('div.data').extract()
+       yield {'data': data}
+   ```
+
+4. Run the spider:
+
+   ```
+   scrapy crawl example
+   ```
+
+Scrapy provides several other features to enhance web scraping, such as support for middleware, pipelines, and item loaders.
+
+**Conclusion**
+
+Web scraping can be a complicated task, but with libraries like Beautiful Soup and Scrapy, you can accomplish it in Python efficiently. In this tutorial, we have explored how to use these two libraries to extract data from websites. We hope you find it helpful in your web scraping projects.
+
+-EndOFText-

@@ -1,0 +1,47 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: How to Make Perfect Cupcakes in 3 Easy Steps
+
+TITLE: How to Make Perfect Cupcakes in 3 Easy Steps
+META_DESCRIPTION: Learn how to make perfect cupcakes every time with these easy 3 steps. Get ready to impress your friends and family with delicious homemade cupcakes that are baked to perfection!
+POST_TAGS: Cupcakes, Baking, Recipes, Easy Steps, Perfect Cupcakes
+POST_CATEGORIES: How-to Guides, Tutorials, Tips and Tricks, Food and Cooking
+MARKDOWN_POST_CONTENT: 
+
+Are you tired of making cupcakes that turn out too dry, too dense, or simply not quite perfect? With these 3 easy steps, you can make perfectly fluffy, moist, and delicious cupcakes every time. You'll be amazed at how easy it is to create bakery-worthy treats that will impress everyone.
+
+Step 1: Preparing the Batter
+
+The secret to perfect cupcakes lies in the batter. For basic vanilla cupcakes, you need 1 1/2 cups (200g) of all-purpose flour, 1 1/2 teaspoon of baking powder, 1/2 teaspoon of baking soda, 1/2 teaspoon of salt, 1/2 cup (113g) of unsalted butter (at room temperature), 1 cup (200g) of granulated sugar, 2 large eggs (at room temperature), 2 teaspoons of vanilla extract, and 1/2 cup (120ml) of milk.
+
+To start, preheat your oven to 350°F (175°C) and line a cupcake pan with paper liners. In a medium bowl, whisk together the flour, baking powder, baking soda, and salt. Set aside.
+
+In a large bowl, beat the butter and sugar together with an electric mixer on medium-high speed until creamy. Add the eggs one at a time, beating well after each addition. Then, beat in the vanilla extract. Gradually add the dry ingredients, alternating with the milk, until everything is combined. Be careful not to overmix.
+
+Step 2: Baking the Cupcakes
+
+Once the batter is ready, it's time to bake the cupcakes. Fill each liner about 2/3 full with batter using a spoon or an ice cream scoop. Tap the pan gently on the countertop to remove any air bubbles.
+
+Bake for 18-20 minutes or until a toothpick inserted in the center of a cupcake comes out clean. Be sure not to overbake, as this can cause the cupcakes to be dry or tough.
+
+Step 3: Decorating the Cupcakes
+
+The final step is the fun part: decorating your cupcakes. Once the cupcakes have cooled completely, you can frost them with your favorite frosting or add any toppings you like. You can also make your cupcakes more unique by adding food coloring to the batter before baking, or by filling them with jam or cream.
+
+That's it! With these 3 easy steps, you can make perfect cupcakes every time. Experiment with different flavors and toppings to create customized cupcakes that are sure to impress. 
+
+-ENDOFTEXT-

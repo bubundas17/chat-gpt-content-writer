@@ -1,0 +1,108 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: What are the basic data types in Python
+
+TITLE: A Quick Guide to Basic Data Types in Python
+META_DESCRIPTION: This article will help you understand the basic data types in Python and their uses.
+TAGS: python, data types, programming
+CATEGORIES: Tutorials, Programming, Data Science
+
+Python is a powerful and versatile programming language used for various purposes such as web development, data science, machine learning, and more. Python has a wide range of built-in data types that make it easy to manipulate data according to your needs. This article will give you a quick guide to the basic data types in Python.
+
+### Numeric Data Types
+
+Numeric data types in Python include integers, floating-point numbers, and complex numbers.
+
+#### Integers
+
+Integers are whole numbers that can be either positive or negative, such as 2, 10, -5, etc. Here's an example of how to define an integer variable:
+
+```python
+number = 4
+```
+
+#### Floating-Point Numbers
+
+Floating-point numbers are numbers with decimal points, such as 3.14, -0.5, etc. Here's an example of how to define a floating-point variable:
+
+```python
+pi = 3.1415926535
+```
+
+#### Complex Numbers
+
+Complex numbers are numbers with imaginary parts, such as 2+3j, -4+5j, etc. In Python, you can define complex numbers using the "j" suffix. Here's an example:
+
+```python
+z = 2 + 3j
+```
+
+### Sequence Data Types
+
+Sequence data types in Python include strings, lists, tuples, and range objects.
+
+#### Strings
+
+Strings are a sequence of characters that represent text. They are enclosed in single or double quotes. Here's an example of how to define a string:
+
+```python
+message = 'Hello, world!'
+```
+
+#### Lists
+
+Lists are ordered sequences of elements that can be of any data type. Lists are mutable, which means that you can modify them after they are created. Here's an example of how to define a list:
+
+```python
+fruits = ['apple', 'banana', 'cherry']
+```
+
+#### Tuples
+
+Tuples are ordered sequences of elements that can be of any data type. Tuples are immutable, which means that you cannot modify them after they are created. Here's an example of how to define a tuple:
+
+```python
+coordinates = (10, 20)
+```
+
+#### Range Objects
+
+Range objects represent a sequence of numbers. They are commonly used in for loops to control the number of iterations. Here's an example of how to define a range object:
+
+```python
+numbers = range(1, 10)
+```
+
+### Boolean Data Type
+
+Boolean data type in Python represents two values: True and False. Boolean data types are used for logical expressions. Here's an example of how to define a boolean variable:
+
+```python
+is_raining = True
+```
+
+### None Data Type
+
+None data type in Python represents a lack of value. It is commonly used as a placeholder. Here's an example of how to define a None variable:
+
+```python
+result = None
+```
+
+In conclusion, Python has a wide range of built-in data types that can be used to represent different types of data. Understanding these data types is essential for any Python programmer. We hope this article was helpful in giving you a good overview of the basic data types in Python.
+
+-EndOFText-

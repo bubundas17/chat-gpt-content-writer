@@ -1,0 +1,58 @@
+I am a Content generator,
+send me a topic and I will create a very large format Blog Post (More than 2000 Words), you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES:  POST_CATEGORIES
+<Post Content Will go here>
+</EndOFText>
+
+Note:
+This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "Tutorial", "News", "Guide", "Tech", "Vlog", "Music"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. After the content is completed, send </EndOFText>
+
+TOPIC: Windows 10 Install guide
+
+TITLE: How to Install Windows 10: A Comprehensive Guide
+META_DESCRIPTION: Learn how to install Windows 10 with this comprehensive guide. We will cover all the steps from downloading the ISO file to activating the OS.
+TAGS: Windows 10, Installation, Guide, Tutorial, Microsoft
+CATEGORIES: Tutorial, Guide
+
+# Introduction
+
+Windows 10 is the latest version of the Windows operating system from Microsoft. It is the successor to Windows 8.1 and was released in July 2015. Windows 10 has many new features and improvements over its predecessors, including a new start menu, improved security, and support for multiple monitors. In this guide, we will show you how to install Windows 10 on your computer.
+
+## Prerequisites
+
+Before you begin the installation process, there are a few things you should do to prepare. First, make sure your computer meets the minimum system requirements for Windows 10. You can find these requirements [here](https://www.microsoft.com/en-us/windows/windows-10-specifications). 
+
+Next, you should back up any important data on your computer. This includes documents, photos, music, and any other files you don't want to lose. You can use an external hard drive or a cloud storage service to do this.
+
+Finally, you should download the Windows 10 ISO file. This is the file that contains the Windows 10 installation files. You can download the ISO file from the Microsoft website [here](https://www.microsoft.com/en-us/software-download/windows10).
+
+## Installing Windows 10
+
+Once you have downloaded the ISO file, you can begin the installation process. To do this, you will need to create a bootable USB drive or DVD. This will allow you to boot from the USB drive or DVD and install Windows 10. 
+
+Once you have created the bootable drive or DVD, you can insert it into your computer and restart it. When your computer boots from the USB drive or DVD, you will be presented with the Windows 10 installation screen. From here, you can follow the on-screen instructions to install Windows 10. 
+
+Once the installation is complete, you will be prompted to enter your product key. This is a 25-character code that you can find on the back of your Windows 10 installation disc or in your order confirmation email. Enter the product key and click "Next" to continue. 
+
+After you have entered the product key, you will be asked to set up your user account. This includes setting up a username, password, and other personal information. Once you have set up your user account, you can begin using Windows 10. 
+
+## Activating Windows 10
+
+Once you have installed Windows 10, you will need to activate it. Activation is a process that verifies that your copy of Windows 10 is genuine and has not been used on more than one computer. To activate Windows 10, you will need to enter your product key. You can find your product key on the back of your Windows 10 installation disc or in your order confirmation email. 
+
+Once you have entered the product key, Windows 10 will be activated and you can begin using it. 
+
+## Conclusion
+
+Installing Windows 10 is a relatively simple process. With the help of this guide, you should be able to install Windows 10 on your computer without any problems. Once you have installed Windows 10, you can activate it by entering your product key. 
+
+If you have any questions or need help with the installation process, you can contact Microsoft support for assistance. 
+
+</EndOFText>

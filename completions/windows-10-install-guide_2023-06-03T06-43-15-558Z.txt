@@ -1,0 +1,48 @@
+I am a Content generator,
+send me a topic and I will create a very large format Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES:  POST_CATEGORIES
+<Post Content Will go here>
+</EndOFText>
+
+Note:
+This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "Tutorial", "News", "Guide", "Tech", "Vlog", "Music"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. After the content is completed, send </EndOFText>
+
+TOPIC: Windows 10 Install guide
+
+TITLE: How to Install Windows 10: A Step-by-Step Guide
+META_DESCRIPTION: Learn how to install Windows 10 with this step-by-step guide. We'll walk you through the entire process, from downloading the ISO to activating your new OS.
+TAGS: windows 10, install windows 10, windows 10 installation guide, windows 10 setup guide
+CATEGORIES: Tutorial, Guide
+
+# How to Install Windows 10: A Step-by-Step Guide
+
+Installing Windows 10 can be a daunting task, especially if you're not familiar with the process. But don't worry, we're here to help! In this guide, we'll walk you through the entire process, from downloading the ISO to activating your new OS.
+
+## Step 1: Download the Windows 10 ISO
+
+The first step in installing Windows 10 is to download the ISO file. You can do this by going to the [Microsoft website](https://www.microsoft.com/en-us/software-download/windows10) and clicking the "Download" button. Once you've downloaded the ISO, you'll need to burn it to a DVD or USB drive.
+
+## Step 2: Boot from the Installation Media
+
+Once you've burned the ISO to a DVD or USB drive, you'll need to boot from it. To do this, insert the DVD or USB drive into your computer and restart it. When you see the "Press any key to boot from CD or DVD" message, press any key to continue.
+
+## Step 3: Install Windows 10
+
+Once you've booted from the installation media, you'll be presented with the Windows 10 setup screen. Follow the on-screen instructions to complete the installation process.
+
+## Step 4: Activate Windows 10
+
+Once you've installed Windows 10, you'll need to activate it. To do this, open the Start menu and type "Activate Windows". Follow the on-screen instructions to complete the activation process.
+
+## Conclusion
+
+Installing Windows 10 can be a daunting task, but with this step-by-step guide, you'll be up and running in no time. Good luck!
+
+</EndOFText>

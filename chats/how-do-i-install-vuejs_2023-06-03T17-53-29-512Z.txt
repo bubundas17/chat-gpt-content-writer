@@ -1,0 +1,78 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: How do I install Vue.js
+
+TITLE: A Beginner's Guide to Installing Vue.js
+META_DESCRIPTION: Learn how to download and successfully install Vue.js on your computer. This comprehensive tutorial will help you get started with Vue.js in no time.
+TAGS: Vue.js, installation, download, beginner's guide
+CATEGORIES: Tutorials, Web Development Frameworks
+ 
+Vue.js is a popular open-source JavaScript framework for building user interfaces and single-page applications. It has gained immense popularity among web developers due to its simplicity and scalability. Installing Vue.js on your computer is a straightforward process. In this beginner's guide, we will walk you through the steps for installing Vue.js on your system.
+
+## Step-by-Step Guide to Installing Vue.js
+Before we start, make sure that your system has Node.js installed. If not, visit [https://nodejs.org](https://nodejs.org) and download the latest version that's compatible with your operating system. 
+
+### Step 1: Open Your Command Line Interface (CLI)
+To start the installation process, open your CLI. On Windows, press `Win + R` on your keyboard, type in `cmd`, and hit Enter. On a Mac, open the Terminal app by searching for it in Spotlight or navigating to `Applications/Utilities/Terminal.app`.
+
+### Step 2: Install Vue.js Using npm
+Once you have your CLI up and running, it's time to install Vue.js using the package manager npm. To install Vue.js globally, enter the following command: 
+
+```
+npm install -g vue
+```
+
+### Step 3: Verify Vue.js Installation
+To verify whether Vue.js is installed on your system, enter the following command in your CLI:
+
+```
+vue --version
+```
+
+If you have followed the above steps correctly, you should see the version number of Vue.js installed on your system displayed in the CLI.
+
+### Step 4: Create Your First Vue.js Project
+Congratulations! You have successfully installed Vue.js. Now, let's create your first Vue.js project. To create a new Vue.js project, follow these steps:
+
+1. Navigate to the directory where you want to create your project.
+2. Enter the following command:
+
+```
+vue create <project-name>
+```
+ 
+In place of `<project-name>`, enter the name you want for your project.
+
+3. Once the installation process is complete, navigate to your project directory using the following command:
+
+```
+cd <project-name>
+```
+
+### Step 5: Start Your Vue.js Project
+To run your project, enter the following command:
+
+```
+npm run serve
+```
+
+Once the server is up and running, open your browser and navigate to `http://localhost:8080/`. You should see the default Vue.js landing page, and your first Vue.js project is now up and running.
+
+## Wrapping Up
+That's all it takes to install Vue.js on your computer and create your first project using this fantastic framework. Always ensure you have the latest version of Vue.js installed on your system to get the most out of it. If you encounter any issues while installing Vue.js, ensure that you follow the above steps correctly and check the documentation available on the [official Vue.js website](https://vuejs.org/v2/guide/installation.html). Good luck!
+
+-EndOFText-
