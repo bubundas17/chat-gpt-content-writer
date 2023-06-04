@@ -1,0 +1,44 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: "Athlete Sets New World Record at International Championship Event"
+
+TITLE: Incredible Feat - Athlete Shatters World Record at International Championship
+
+META_DESCRIPTION: Read about the amazing accomplishments of an athlete who stunned the world by breaking the previous world record at an international championship event.
+
+TAGS: Sports, Athletics, World Record, International Championship, Amazing Accomplishments, Athletes
+
+CATEGORIES: News, Sports, Amazing Accomplishments
+
+MARKDOWN_POST_CONTENT:
+Every now and then, an athlete shines bright and creates history. One such instance took place recently at an International Championship Event where an athlete shattered an existing world record and made a name for himself.
+
+The athlete we are talking about is (athlete's name) who broke the existing world record for (event) by (previous record time) seconds. This was an incredible feat considering the level of competition at the event and the fact that the previous record had been standing for (number of years) years.
+
+The entire stadium was on its feet as (athlete's name) crossed the finish line and the clock stopped at (new world record time). This achievement was due to several factors, including (list of factors that contributed to the athlete's success).
+
+But the journey towards this incredible accomplishment was long and arduous. (Athlete's name) had to face several obstacles to reach the top level of competition. (Mention the athlete's journey towards the international championship)
+
+Despite these challenges, (athlete's name) never gave up and continued to train harder every day to reach the pinnacle of success. It was this dedication and hard work that ultimately led to this amazing accomplishment.
+
+This feat not only represents a personal record for (athlete's name) but it is also a matter of pride for their country. It is a testament to the power of hard work, determination, and perseverance.
+
+The world is full of numerous athletic events that test athletes to their limits, but it is moments like these that take our breaths away. The story of (athlete's name) is a reminder that with hard work and dedication, anything is possible.
+
+We congratulate (athlete's name) on this remarkable achievement, and look forward to seeing similar displays of excellence in the world of sports!
+
+-EndOFText-

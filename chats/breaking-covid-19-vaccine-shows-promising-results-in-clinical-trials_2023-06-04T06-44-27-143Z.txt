@@ -1,0 +1,38 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: "Breaking: COVID-19 Vaccine Shows Promising Results in Clinical Trials"
+
+TITLE: Promising Results from Clinical Trials for COVID-19 Vaccine
+META_DESCRIPTION: Read about the positive developments in clinical trials for a COVID-19 vaccine and the potential impact it could have on the pandemic.
+TAGS: COVID-19, vaccine, clinical trials, public health, pandemic
+CATEGORIES: News, Science and Technology, Health Tech and Wearables
+
+The world has been eagerly waiting for a breakthrough in the fight against COVID-19 since the pandemic first struck earlier this year. After months of extensive research and clinical trials, the outlook has finally begun to look more positive in recent weeks. There are promising results coming out of multiple clinical trials underway around the world that suggest we may, in fact, be on the brink of a feasible vaccine for the virus.
+
+Moderna, a US-based biotech company, caught worldwide attention when they announced their latest vaccine update last week. The company states that the vaccine appears to be 94.5% effective, based on the results of the late-stage clinical trials. The results suggest that the vaccine could be an essential tool in preventing the spread of the virus.
+
+The Moderna vaccine utilizes messenger RNA technology, which is being tested for the first time in the world on this scale. It uses fragments of the virus’s genetic material to prompt the body’s immune system to produce protective antibodies against the virus. This groundbreaking technology could play a significant role in developing a new generation of vaccines that can be produced much faster and more efficiently than traditional methods.
+
+Moderna plans to apply for emergency use authorization from the US Food and Drug Administration (FDA) within the coming weeks. If authorized, the vaccine can begin to be distributed to the American public as soon as December. However, the vaccine is not the solution to ending the pandemic just yet. It will take years to manufacture and distribute globally, and there is still a long way to go in ensuring that an effective vaccine is accessible to every corner of the world without discrimination.
+
+Pfizer and BioNTech are another two pharmaceutical companies that have announced the success of their COVID-19 vaccine candidate. They have reported extremely promising results in their final Phase 3 trials, with their vaccine being found to be 95% effective in preventing the virus after two doses. They have also said that their vaccine can be stored at standard freezer temperatures of around -20°C for up to 6 months, making it accessible to most areas worldwide.
+
+These recent announcements from Moderna, Pfizer and BioNTech, have been seen as a major cause for hope in a world that has been struggling against the COVID-19 pandemic. The successful creation and distribution of a vaccine could alleviate both health and economic burdens that have been weighing heavily on communities worldwide for much of the year.
+
+It is still imperative that everyone continues to practice precautions and safety measures to prevent the spread of the virus. We may be inching closer to a resolution, but until the vaccine is widely distributed, we need to continue acting prudently and responsibly to protect ourselves and each other.
+
+-EndOFText-

@@ -1,0 +1,38 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: "Breaking: Major Aircraft Carrier Sinks in Middle of Pacific Ocean"
+
+TITLE: Breaking News: Aircraft Carrier Sinks in Pacific Ocean
+META_DESCRIPTION: Read the latest breaking news on the sinking of a major aircraft carrier in the Pacific Ocean. Find out what happened, how many people were affected, and what steps are being taken to address the situation.
+TAGS: aircraft carrier, Pacific Ocean, sinking, breaking news, casualties, investigation, rescue mission
+CATEGORIES: News
+
+The world woke up to some shocking news when a major aircraft carrier, the USS Gerald R. Ford, sank in the middle of the Pacific Ocean. This devastating incident has left many people worried and concerned about the safety of those onboard.
+
+The USS Gerald R. Ford is considered the world's largest aircraft carrier and is capable of carrying up to 75 aircraft. With a crew of approximately 5,000 sailors, the ship was on a routine mission when it reportedly encountered some technical issues, leading to the ship's eventual sinking.
+
+The details about the incident are still unclear as the investigation is ongoing. However, initial reports suggest that the ship's engines failed before the ship began to take on water. Despite the crew's best efforts to repair the machinery, the situation worsened and eventually led to the ship's sinking.
+
+The incident has raised concerns about the safety of such massive ships and the risks they pose to sailors. As the investigation continues, many questions remain unanswered, including the number of casualties and the cause of the technical issue that led to the sinking.
+
+In the meantime, a rescue operation is underway to help those affected. Rescue teams from nearby naval bases are being mobilized to reach the site and provide assistance to the crew members. The US military has vowed to spare no effort in ensuring that all individuals affected by the sinking are safely rescued.
+
+The incident has not just affected the crew members and their families but has also sparked concerns among the public about the safety of such large vessels. It remains to be seen what steps are taken to prevent similar incidents from occurring in the future.
+
+In conclusion, the sinking of the USS Gerald R. Ford is a major tragedy that has left many people concerned about the safety of military personnel serving on naval vessels. The investigation is ongoing, and more details are expected to emerge in the coming days. Our thoughts go out to the affected sailors and their families, and we remain hopeful that all affected individuals are safely rescued.
+
+-EndOFText-

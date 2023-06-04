@@ -1,0 +1,52 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: Breaking down the latest sports news and recaps
+
+TITLE: The Home Run Digest: All You Need to Know about the Latest Sports News and Recaps
+META_DESCRIPTION: Keep up with the latest sports news and game recaps by reading The Home Run Digest, featuring comprehensive coverage of all your favorite sports.
+TAGS: sports news, game recaps, sports highlights, sports analysis, coach interviews, athlete interviews, sports events
+CATEGORIES: News, Reviews, Tutorials, How-to Guides, Product Comparisons, Tips and Tricks, Industry Analysis, Emerging Technologies, Software Development, Cybersecurity, Artificial Intelligence, Internet of Things (IoT), Data Science, Gaming, Mobile Technology, Social Media, E-commerce and Online Business, Wearable Technology, Virtual Reality (VR) and Augmented Reality (AR), Tech Events and Conferences, Digital Marketing and SEO, Cloud Computing, Hardware and Components, Internet and Connectivity, Programming and Coding, Tech Tips for Beginners, Science and Technology, Tech Careers and Job Opportunities, Tech Ethics and Policy, Social Impact of Technology
+
+MARKDOWN_POST_CONTENT:
+
+# The Home Run Digest: All You Need to Know about the Latest Sports News and Recaps
+
+Whether you're a die-hard fan or a casual observer, keeping up with the latest sports news and game recaps can be a challenge. Every day, there are scores of games, matches, and events taking place around the world, and it can be difficult to know what to pay attention to and what to ignore.
+
+That's where The Home Run Digest comes in. We're your one-stop shop for all things sports, featuring comprehensive coverage of all your favorite sports, including basketball, football, baseball, soccer, tennis, golf, and more. Here's what you can expect to find in our daily coverage:
+
+## Sports News
+
+If it's happening in the world of sports, we're on it. Our team of reporters monitors game scores, injury reports, and trade rumors to bring you the latest breaking news from the world of sports. Whether you're interested in professional or college sports, we've got you covered.
+
+## Game Recaps
+
+Missed a game? Don't worry, we've got you covered. Our game recaps provide in-depth analysis of the day's most important games, including highlights, key plays, and player stats. We'll bring you up to speed on everything you need to know about the game, so you can sound like an expert to your friends.
+
+## Sports Analysis
+
+Want to know what's really going on in the world of sports? Our team of analysts looks beyond the scores and stats to provide in-depth analysis of the biggest stories in sports. From coaching decisions to contract negotiations, we'll give you the inside scoop on everything that matters.
+
+## Coach and Athlete Interviews
+
+What do the players and coaches have to say? We'll find out for you. Our team of reporters conducts interviews with some of the biggest names in sports to bring you unique insights and perspectives. Whether you're interested in strategy, mindset, or just the human side of sports, we've got you covered.
+
+## Sports Events
+
+Looking for something to do this weekend? We've got recommendations for you. Our team of reporters scours the globe to find the best sports events, from major tournaments to local leagues. We'll tell you where to go, what to do, and how to get the most out of your sports experience.
+
+In short, The Home Run Digest is your go-to source for all things sports. So whether you're a fan of basketball, football, soccer, or any other sport, be sure to check out The Home Run Digest to stay in the know.</EndOFText>

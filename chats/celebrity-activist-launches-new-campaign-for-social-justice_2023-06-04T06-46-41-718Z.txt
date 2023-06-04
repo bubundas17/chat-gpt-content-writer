@@ -1,0 +1,41 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: "Celebrity Activist Launches New Campaign for Social Justice"
+
+TITLE: Making a Difference: Celebrity Activist Launches New Campaign for Social Justice
+
+META_DESCRIPTION: This post discusses a new campaign launched by a celebrity activist for social justice and explores the impact it can have on society.
+
+TAGS: social justice, celebrity activist, campaign, activism, inequality, discrimination, civil rights
+
+CATEGORIES: News, Social Impact of Technology, Tech Ethics and Policy
+
+MARKDOWN_POST_CONTENT:
+
+In today's world, social justice has become an increasingly important issue, with many people feeling the need to speak out against inequality and discrimination. One such person is a well-known celebrity activist who has just launched a new campaign for social justice.
+
+The campaign aims to raise awareness about the ways in which inequality affects different groups of people, including those who are marginalized and discriminated against. By shining a light on these issues, the activist hopes to inspire others to take action and make a difference.
+
+The campaign is being promoted via social media, with the activist sharing videos, images, and stories that demonstrate the impact of discrimination and how it can be challenged. This approach is designed to reach a wider audience and encourage people to engage with the issue.
+
+The campaign has already gained support from a number of high-profile individuals and organizations, with many expressing their admiration for the activist's commitment to social justice. There is hope that the campaign will inspire a wider movement of activism, bringing people together to fight for a fairer and more equitable society.
+
+As well as raising awareness, the campaign also aims to provide practical support to those who are affected by discrimination and inequality. This could involve providing financial assistance, legal support, or other resources that can help to make a difference.
+
+Overall, the launch of this campaign is a powerful reminder of the impact that celebrity activism can have on social justice issues. By using their platform to speak out and inspire change, these individuals can make a real difference in the world and help to create a better future for all.
+
+-EndOFText-

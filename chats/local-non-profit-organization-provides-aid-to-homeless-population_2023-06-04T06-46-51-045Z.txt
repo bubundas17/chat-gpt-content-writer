@@ -1,0 +1,36 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: "Local Non-Profit Organization Provides Aid to Homeless Population"
+
+TITLE: Giving Back: How One Local Non-Profit is Providing Aid to the Homeless Population 
+META_DESCRIPTION: Learn about how XYZ non-profit organization is providing essential aid to the homeless population in the local community and how you can get involved in making a difference. 
+TAGS: non-profit, homelessness, community outreach, social impact, volunteer opportunities 
+CATEGORIES: Social Impact, News, Community Outreach 
+
+According to recent statistics, the number of homeless individuals in the United States is on the rise. While this is a tragic reality, it is important to recognize the efforts of local non-profit organizations that are working to combat this issue and provide support to those in need. One such organization is XYZ non-profit, which has been providing aid to the homeless population in our community for over a decade.
+
+Founded by a group of dedicated volunteers, XYZ non-profit has made it their mission to provide aid and resources to the homeless population in our community. They offer a range of services and support, including hot meals, clothing donations, temporary shelter, and access to medical care. 
+
+Their approach to helping the homeless population goes beyond basic necessities, as they also provide support and resources to help individuals get back on their feet and reintegrate into society. As part of their program, XYZ non-profit offers job training, education programs, and counseling services to those in need.
+
+One of the unique aspects of XYZ non-profit is their commitment to volunteerism and community outreach. They rely heavily on volunteers to not only provide the support and services needed by the homeless population, but also to raise awareness about the issue and encourage others to get involved. As a volunteer, individuals can donate their time and resources in a variety of ways, from preparing and serving meals to organizing donation drives and fundraising events.
+
+The impact that XYZ non-profit has had on the local community is immeasurable. Through their dedication and hard work, they have been able to provide essential aid and support to countless individuals who are facing homelessness. Their approach to community outreach and volunteerism has also helped to raise awareness about the issue and encourage others to get involved in making a difference.
+
+If you are interested in supporting XYZ non-profit's efforts to aid the homeless population in our community, there are many ways to get involved. Consider making a donation, volunteering your time and resources, or spreading awareness about the issue and the work that XYZ non-profit is doing to combat it. Together, we can make a difference in the lives of those who need it most.
+
+-EndOFText-

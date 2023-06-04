@@ -1,0 +1,52 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: Introduction to HTML and Web Design
+
+TITLE: The Beginner's Guide to HTML and Web Design
+META_DESCRIPTION: Learn the basics of HTML and web design with this comprehensive guide. Perfect for beginners looking to build their own website.
+TAGS: HTML, Web Design, Beginner's Guide, Website, CSS
+CATEGORIES: Tutorials, Web Development Frameworks, Programming and Coding, Tips and Tricks
+
+HTML, or HyperText Markup Language, is the building block of most websites. Whether you're looking to build your own site or just want to learn the basics of web design, understanding HTML is a must. In this comprehensive beginner's guide, we'll take a look at the basics of HTML and web design, including the tools you'll need to get started.
+
+Getting Started with HTML
+The first step to learning HTML is to understand what it is and how it works. HTML is the language used to create the structure of a webpage. It uses a series of tags to define elements like headers, paragraphs, images, and links. To get started with HTML, all you need is a basic text editor. You can use anything from Notepad to Atom or Sublime Text.
+
+HTML Tags and Elements
+Tags are used to define elements in HTML. There are dozens of HTML tags, each with its own unique function. Some common tags you'll use include:
+
+- `<html>`: This tag defines the root of an HTML document.
+- `<head>`: This tag contains the metadata for your page, like the title and links to stylesheets.
+- `<body>`: This tag contains the content of your page.
+- `<h1>`-`<h6>`: These tags define headings, with `h1` being the largest and `h6` the smallest.
+- `<p>`: This tag defines a paragraph.
+- `<a>`: This tag creates a hyperlink.
+- `<img>`: This tag defines an image.
+- `<ul>`: This tag creates an unordered list.
+- `<li>`: This tag defines a list item.
+- `<div>` and `<span>`: These tags define containers for other elements.
+
+CSS Stylesheets
+In addition to HTML, a stylesheet language called CSS (Cascading Style Sheets) is used to style websites. CSS allows you to control everything from font sizes and colors to layout and spacing. CSS stylesheets can be included in your HTML document using the `<link>` tag.
+
+Building Your Own Website
+Once you've got a handle on HTML and CSS, you can start building your own website. There are a number of tools and frameworks that can make the process easier, like Bootstrap and WordPress. When building your own site, it's important to keep in mind factors like usability, accessibility, and responsive design.
+
+Conclusion
+HTML may seem intimidating at first, but with a little practice, you'll soon be building your own websites. Remember to start small and take it one step at a time. As you become more comfortable with HTML and web design, you can start exploring more advanced techniques like JavaScript and responsive design.
+
+-ENDOFTEXT-

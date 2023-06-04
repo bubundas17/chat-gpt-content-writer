@@ -1,0 +1,63 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: Honest opinions on popular streaming services like Netflix and Hulu
+
+TITLE: Streaming Services Showdown: The Pros and Cons of Netflix and Hulu
+
+META_DESCRIPTION: Are you torn between Netflix and Hulu? Here's an in-depth analysis of both streaming services to help you choose which one's right for you!
+
+TAGS: Netflix, Hulu, Streaming Services, TV Shows, Movies, Subscription
+
+CATEGORIES: Reviews, Tutorials
+
+MARKDOWN_POST_CONTENT:
+
+The rise of streaming services has revolutionized the way we consume entertainment. No longer are we tied to our cable boxes or DVD players. We can watch what we want, when we want, and often on multiple devices. But with so many options out there, how do you know which one is right for you? In this post, we’ll take a closer look at two of the most popular ones- Netflix and Hulu.
+
+Netflix
+
+Pros:
+- Netflix has a massive library with a wide variety of content. Whether you’re in the mood for a classic movie or the latest TV show, you’re likely to find it on Netflix.
+- The platform has a user-friendly interface that’s easy to navigate. You can search for specific titles or browse by genre.
+- Unlike traditional TV networks, Netflix releases entire seasons of shows at once. This means you can binge-watch your favorite shows without having to wait for weekly episodes. 
+- Netflix has also started producing its own content, which is often critically acclaimed. Shows like “Stranger Things” and “House of Cards” have gained an almost cult-like following.
+- Netflix allows you to create multiple profiles, so you can share your account with family members without worrying about messing up each other’s watchlists.
+
+Cons:
+- While Netflix releases entire seasons at once, it can sometimes feel like there’s nothing new to watch. With so many subscribers, it’s easy to quickly burn through all of the content.
+- The platform can be overwhelming to new users due to the sheer amount of content available. It’s easy to spend more time searching for something to watch than actually watching something.
+- While Netflix has a wide variety of TV shows and movies, its library is constantly changing. Titles come and go, which can be frustrating if there’s something you were looking forward to watching.
+
+Hulu
+
+Pros:
+- Hulu is known for having current TV shows available to stream quickly after they air. If you missed an episode of your favorite show, chances are you can find it on Hulu the next day.
+- Hulu offers a variety of subscription options, including a bundle with Disney+ and ESPN+. 
+- The platform also offers a live TV option for those who want to watch current programming as it airs.
+- Hulu’s interface is simple and easy to use, making it easy to find what you’re looking for.
+- Like Netflix, Hulu offers original content, including shows like “The Handmaid’s Tale” and “Pen15”.
+
+Cons:
+- While Hulu offers many current TV shows, it doesn’t have the same variety of content as Netflix. Its movie selection is especially lacking.
+- Ads are still present on the lower-priced subscription options. Even though the ads are shorter than traditional commercial breaks, they may still be annoying to some users.
+- Hulu’s streaming options are limited to the US only, making it off-limits to international viewers.
+
+Conclusion:
+
+Both Netflix and Hulu offer their own set of pros and cons. For those who want a variety of content at their fingertips and the ability to binge-watch shows, Netflix is the way to go. On the other hand, Hulu is great for viewers who want to watch current TV shows and can’t wait for the season to be released on Netflix. Ultimately, the choice might come down to personal preferences and what’s important to each individual viewer.
+
+-EndOFText-

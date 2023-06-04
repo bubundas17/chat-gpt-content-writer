@@ -1,0 +1,40 @@
+I am a Content generator,
+send me a topic and I will create a large format expanded very detailed Blog Post, you will reply in this format:
+TITLE: POST_TITLE
+META_DESCRIPTION: POST_DESCRIPTION
+TAGS: POST_TAGS
+CATEGORIES: POST_CATEGORIES
+
+-EndOFText-
+
+Note:
+TITLE: This Will be post title, You must take the given topic and Make a SEO Friendly and Catchy topic
+META_DESCRIPTION: A short meta descriptiom for the post
+POST_TAGS: Comma seperated list of tags for the article.
+POST_CATEGORIES: Comma seperated list of Categories for the article. Choose from: "News", "Reviews", "Tutorials", "How-to Guides", "Product Comparisons", "Tips and Tricks", "Industry Analysis", "Emerging Technologies", "Software Development", "Cybersecurity", "Artificial Intelligence", "Internet of Things (IoT)", "Data Science", "Gaming", "Mobile Technology", "Social Media", "E-commerce and Online Business", "Wearable Technology", "Virtual Reality (VR) and Augmented Reality (AR)", "Tech Events and Conferences", "Digital Marketing and SEO", "Cloud Computing", "Hardware and Components", "Internet and Connectivity", "Programming and Coding", "Tech Tips for Beginners", "Data Privacy and Protection", "Science and Technology", "Tech Careers and Job Opportunities", "Tech Ethics and Policy", "Home Automation", "Robotics and Automation", "Blockchain Technology", "Audio and Video Technology", "Tech for Education and Learning", "Health Tech and Wearables", "Tech for Small Businesses", "Social Impact of Technology", "Tech Gadgets for Home", "Green Tech and Sustainability", "Web Hosting Reviews", "Server Management and Optimization", "Website Security and SSL Certificates", "Content Delivery Networks (CDNs)", "Domain Name Registration", "Cloud Hosting and Services", "Dedicated Servers", "Shared Hosting", "Virtual Private Servers (VPS)", "Website Backup and Recovery", "Server Monitoring and Performance", "Server Hardware and Infrastructure", "Web Hosting Tutorials and Guides", "WordPress Hosting and Plugins", "E-commerce Hosting Solutions", "Email Hosting and Communication", "Database Management", "Web Development Frameworks", "Server-Side Scripting and Languages", "Server Virtualization"
+MARKDOWN_POST_CONTENT: This is the actual very large post content Formatted in Markdown. The content must be very detailed. After the content is completed, send </EndOFText>
+
+TOPIC: The Best Electric Shavers For A Clean And Smooth Shave
+
+TITLE: The Best Electric Shavers For A Close and Comfortable Shave
+META_DESCRIPTION: Say goodbye to nicks and cuts with our list of the best electric shavers for a smooth shave. Check out our top picks and get ready to experience a close and comfortable shave.
+TAGS: electric shavers, shaving, personal grooming, men's grooming, electric razors, comfort shave
+CATEGORIES: Reviews, Tips and Tricks, Personal Grooming
+
+If you're tired of nicks and cuts from traditional razors, an electric shaver may be just what you need. These handy devices offer a close and comfortable shave with minimal risk of skin irritation. But with so many different models on the market, choosing the right one can be a daunting task. 
+
+To help you make an informed decision, we've rounded up some of the best electric shavers for a clean and smooth shave. 
+
+1. Philips Norelco Shaver 9700: This high-end electric shaver features three shaving heads and advanced contouring technology to adapt to the unique contours of your face. It also has a unique cleaning and charging system that automatically cleans and lubricates the shaver after each use. 
+
+2. Braun Series 9: The Braun Series 9 is a top-of-the-line electric shaver that promises a comfortable and efficient shave. Its five shaving elements work together to capture more hair in one stroke, while the flexible head adapts to your facial contours for maximum comfort. 
+
+3. Panasonic Arc5: The Panasonic Arc5 offers a powerful and precise shave with its five-blade cutting system. It also features a multi-flex pivoting head and ultra-thin ARC foil for a close and comfortable shave. 
+
+4. Remington F5-5800: For a budget-friendly option, the Remington F5-5800 is a great choice. It features a Pivot and Flex head that moves with your face for a comfortable shave, as well as an Interceptor Shaving Technology that cuts long hairs and stubble with ease. 
+
+5. Wahl 5-Star Series: The Wahl 5-Star Series is a versatile and powerful electric shaver that can also be used for precision trimming and outlining. It features a hypoallergenic foil and a dynamic shaver head that adjusts to the contours of your face for a smooth and close shave. 
+
+No matter which electric shaver you choose, remember to keep it clean and well-maintained to ensure optimal performance and longevity. With the right shaver and a bit of practice, you'll be on your way to a clean and smooth shave in no time.
+
+-ENDOFTEXT-
