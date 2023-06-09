@@ -5,6 +5,11 @@ const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 const chatsDir = path.join(__dirname, 'chats');
+const datasetsDir = path.join(__dirname, 'datasets');
+const customDatasetName = 'posts.json';
+const datasetOut = "blog-writer.jsonl";
+const alpacaBase = "alpaca.jsonl";
+const inputoutput = "inputoutput.json";
 
 (async () => {
     process()
@@ -14,13 +19,39 @@ async function process() {
     // Get all files in chats directory
     let res = []
     let files = await fs.promises.readdir(chatsDir);
+    // for (let file of files) {
+    //     let filePath = path.join(chatsDir, file);
+    //     let data = parseFile(filePath)
+    //     res.push(data)
+    //     // console.log(data)
+    // }
+    // let datasetPath = path.join(datasetsDir, customDatasetName);
+    // fs.writeFileSync(datasetPath, JSON.stringify(res, null, 2))
+
+    // res = []
+    // let base = fs.readFileSync(path.join(__dirname, alpacaBase), 'utf8');
+    // write the base file
+    // fs.writeFileSync(path.join(datasetsDir, datasetOut), base)
     for (let file of files) {
         let filePath = path.join(chatsDir, file);
-        let data = parseFile(filePath)
-        res.push(data)
+        let data = parseFileVicuna(filePath)
+        fs.appendFileSync(path.join(datasetsDir, datasetOut), JSON.stringify(data) + '\n')
+        // res.push(data)
         // console.log(data)
     }
-    fs.writeFileSync('data.json', JSON.stringify(res, null, 2))
+    // let vicunaDataset = path.join(datasetsDir, datasetOut);
+    // fs.writeFileSync(vicunaDataset, JSON.stringify(res, null, 2))
+
+    // res = []
+
+    // for (let file of files) {
+    //     let filePath = path.join(chatsDir, file);
+    //     let data = parseFileinputoutput(filePath)
+    //     res.push(data)
+    //     // console.log(data)
+    // }
+    // let inputoutputset = path.join(datasetsDir, inputoutput);
+    // fs.writeFileSync(inputoutputset, JSON.stringify(res, null, 2))
 }
 
 function parseFile(path) {
@@ -51,6 +82,83 @@ function parseFile(path) {
             tags: (tagsMatch ? tagsMatch[1] : '').trim(),
             categories: (categoriesMatch ? categoriesMatch[1] : '').trim(),
             body: body.trim().replace(/endoftext/ig, '').replace(/--$/ig, '').replace(/\<\>$/ig, '').replace("MARKDOWN_POST_CONTENT:", "").trim()
+        }
+    } catch (error) {
+        console.log(conetnt)
+    }
+
+}
+
+function parseFileVicuna(path) {
+    let conetnt = fs.readFileSync(path, 'utf8');
+    try {
+        conetnt = conetnt.split('TOPIC: ')[1]
+        conetnt = 'TOPIC: ' + conetnt
+        // console.log(conetnt)
+        const topic = /TOPIC:(.+)/gm;
+        const title = /TITLE:(.+)/gm;
+        const meta = /META_DESCRIPTION:(.+)/gm;
+        const tags = /TAGS:(.+)/gm;
+        const categories = /CATEGORIES:(.+)/gm;
+    
+        const topicMatch = topic.exec(conetnt);
+        const titleMatch = title.exec(conetnt);
+        const metaMatch = meta.exec(conetnt);
+        const tagsMatch = tags.exec(conetnt);
+        const categoriesMatch = categories.exec(conetnt);
+    
+        const body = conetnt.split(categoriesMatch[0])[1]
+    
+        let data = {
+            topic: (topicMatch ? topicMatch[1] : '').trim(),
+            title: (titleMatch ? titleMatch[1] : '').trim(),
+            meta: (metaMatch ? metaMatch[1] : '').trim(),
+            tags: (tagsMatch ? tagsMatch[1] : '').trim(),
+            categories: (categoriesMatch ? categoriesMatch[1] : '').trim(),
+            body: body.trim().replace(/endoftext/ig, '').replace(/--$/ig, '').replace(/\<\>$/ig, '').replace("MARKDOWN_POST_CONTENT:", "").trim()
+        }
+        return {
+            instruction: 'Write a blog post in Markdown about the following topic',
+            input: data.topic,
+            output: `\nTITLE: ${data.title}\nMETA: ${data.meta}\nTAGS: ${data.tags}\nCATEGORIES: ${data.categories}\n\n----\n${data.body}`
+        }
+    } catch (error) {
+        console.log(conetnt)
+    }
+
+}
+
+function parseFileinputoutput(path) {
+    let conetnt = fs.readFileSync(path, 'utf8');
+    try {
+        conetnt = conetnt.split('TOPIC: ')[1]
+        conetnt = 'TOPIC: ' + conetnt
+        // console.log(conetnt)
+        const topic = /TOPIC:(.+)/gm;
+        const title = /TITLE:(.+)/gm;
+        const meta = /META_DESCRIPTION:(.+)/gm;
+        const tags = /TAGS:(.+)/gm;
+        const categories = /CATEGORIES:(.+)/gm;
+    
+        const topicMatch = topic.exec(conetnt);
+        const titleMatch = title.exec(conetnt);
+        const metaMatch = meta.exec(conetnt);
+        const tagsMatch = tags.exec(conetnt);
+        const categoriesMatch = categories.exec(conetnt);
+    
+        const body = conetnt.split(categoriesMatch[0])[1]
+    
+        let data = {
+            topic: (topicMatch ? topicMatch[1] : '').trim(),
+            title: (titleMatch ? titleMatch[1] : '').trim(),
+            meta: (metaMatch ? metaMatch[1] : '').trim(),
+            tags: (tagsMatch ? tagsMatch[1] : '').trim(),
+            categories: (categoriesMatch ? categoriesMatch[1] : '').trim(),
+            body: body.trim().replace(/endoftext/ig, '').replace(/--$/ig, '').replace(/\<\>$/ig, '').replace("MARKDOWN_POST_CONTENT:", "").trim()
+        }
+        return {
+            input: 'Write a blog post in Markdown about the topic: '  + data.topic,
+            output: `\nTITLE: ${data.title}\nMETA: ${data.meta}\nTAGS: ${data.tags}\nCATEGORIES: ${data.categories}\n\----\n\n${data.body}`
         }
     } catch (error) {
         console.log(conetnt)
